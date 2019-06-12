@@ -9,13 +9,13 @@ import (
 func Hi(name, lang string) (string, error) {
     switch lang {
     case "en":
-        return fmt.Sprintf("英语    Hi, %s!", name), nil
+        return fmt.Sprintf("en 1111111111   Hi, %s!", name), nil
     case "pt":
-        return fmt.Sprintf("Oi, %s!", name), nil
+        return fmt.Sprintf("pt 222222222    Oi, %s!", name), nil
     case "es":
-        return fmt.Sprintf("¡Hola, %s!", name), nil
+        return fmt.Sprintf("es 333333333    ¡Hola, %s!", name), nil
     case "fr":
-        return fmt.Sprintf("Bonjour, %s!", name), nil
+        return fmt.Sprintf("fr 444444444    Bonjour, %s!", name), nil
     default:
         return "", errors.New("unknown language")
     }
